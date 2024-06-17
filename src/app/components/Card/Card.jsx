@@ -21,7 +21,7 @@ function Card({ result }) {
           <h2 className="text-lg font-bold truncate">
             {result.title || result.name}
           </h2>
-          <p className="flex items-center">
+          <p className="flex items-center text-xs">
             {result.release_date || result.first_air_date}
             <FiThumbsUp className="h-5 mr-1 ml-3 fill-amber-600" />
             {result.vote_count}
